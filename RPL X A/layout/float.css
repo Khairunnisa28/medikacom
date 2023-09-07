@@ -1,0 +1,26 @@
+/*reset margin dan padding untuk elemen HTML dan body*/
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+/*Buat container dengan float layout*/
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+/*Elemen kotak dengan float*/
+.box{
+    width: 30%;
+    height: 200px;
+    margin: 10px;
+    float: left;
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+}
+.red{
+    background-color: red;
+    color: white;
+}
