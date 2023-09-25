@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: blue;
+}
+
+.container {
+    max-width: 40px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(red, green, blue);
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(red, green, blue, alpha);
+}
+
+h1 {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 5px 0;
+    padding: 5px;
+    border: 1px solid red rgb(red, green, blue);
+    background-color: white rgb(red, green, blue);
+    display: flex;
+    justify-content: space-between; /* ratakanelemen dalam daftar */
+    align-items: center; /* tengahkan vertikal elemen dalam daftar */
+}
+
+input[type="text"] {
+    width: 70%;
+    padding: 5px;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: aqua;
+    color:black rgb(red, green, blue);
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: aquamarine;
+}
+.task-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.delete-button {
+    background-color: brown;
+    color: azure;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.delete-button {
+    background-color: red;
+}
