@@ -1,0 +1,81 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   outline: none;
+   border: none;
+   text-decoration: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    min-height: 2000px;
+}
+
+
+.brodyml {
+    text-align: center;
+    align-items: center;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    border: 1px;
+    border-radius: auto;
+    background-color: darkgray;
+    box-shadow: 0 3px 3px #000;
+}
+
+h1 {
+    text-align: center;
+    display: block;
+    inline-size: auto;
+    color: brown;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+p {
+    text-align: center;
+    size: 1rem;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+h2{
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+img{
+    align-items: center;
+    width: 20rem;
+    height: 20rem;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+table, tr, th{
+    box-sizing: border-box;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+table{
+    margin: auto;
+    border-color: brown;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+p {
+    text-align: left;
+    font-size: 1rem;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+form, button{
+    align-items: center;
+}
