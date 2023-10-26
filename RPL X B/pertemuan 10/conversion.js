@@ -14,7 +14,7 @@ var angka = 10;
 var string = "29";
 var hasil = angka + string;
 
-document.write(<h3>coercion</h3>);
+document.write("<h3>coercion</h3>");
 document.write("angka: " + angka + "<br>");
 document.write("string: " + string + "<br>");
 document.write("Hasil: " + hasil + "<br>");
