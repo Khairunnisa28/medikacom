@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bilangan Ganjil dan Genap</title>
+</head>
+<body>
+    <h1>Daftar Bilangan Ganjil dan Genap</h1>
+
+    <h2>Bilangan Genap:</h2>
+    <ul id="evenList"></ul>
+
+    <h2>Bilangan Ganjil:</h2>
+    <ul id="oddList"></ul>
+
+    <script>
+        var evenList = document.getElementById('evenList');
+        var oddList = document.getElementById('oddList');
+
+        for (var i = 1; i <= 20; i++) {
+            var li = document.createElement('li');
+            li.textContent = i;
+            
+            if (i % 2 === 0) {
+                evenList.appendChild(li);
+            } else {
+                oddList.appendChild(li);
+            }
+        }
+    </script>
+</body>
+</html>
